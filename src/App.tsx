@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import {Outlet, Link, useRoutes} from 'react-router-dom'
-import {Button} from 'antd'
+import {useRoutes} from 'react-router-dom'
 import {routerList} from './router/routerList'
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Outlet></Outlet> */}
       {outlets}
     </div>
   )
